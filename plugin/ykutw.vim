@@ -51,6 +51,6 @@ function s:DoWordMotion(wordmotion, endmotion)
 endfunction
 
 onoremap w :<C-U>call <SID>DoWordMotion('w','e')<CR>
-onoremap W :<C-U>call <SID>DoWordMotion('W','E')<CR>
+onoremap <c-w> :<C-U>call <SID>DoWordMotion('W','E')<CR>
 
 " vim: fdm=marker fmr={{{,}}}
