@@ -50,7 +50,7 @@ function s:DoWordMotion(wordmotion, endmotion)
 	execute 'normal! h'
 endfunction
 
-onoremap w :<C-U>call <SID>DoWordMotion('w','e')<CR>
-onoremap <c-w> :<C-U>call <SID>DoWordMotion('W','E')<CR>
+onoremap e :<C-U>call <SID>DoWordMotion('w','e')<CR>
+onoremap <c-e> :<C-U>call <SID>DoWordMotion('W','E')<CR>
 
 " vim: fdm=marker fmr={{{,}}}
